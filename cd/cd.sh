@@ -1,5 +1,9 @@
 #Changes directory to the mentioned directory provided as argument.
 cd /home/user/path
+#Empty forward slash doesn't matters for changing directory
+cd ////home////user////path
+#Empty forward slash and period symbol doesn't matters for changing directory
+cd /././home/./././user/./././path
 
 #Changes directory to the home directory. All 3 commands listed below does the same
 cd (empty)
