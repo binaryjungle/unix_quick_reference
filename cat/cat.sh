@@ -1,5 +1,8 @@
 #Displays the content of the file
 cat file_name_01.txt
+cat file_name_01.txt file_name_02.txt
+
+cat >file_name_01.txt #Creates/Overwrites a file with terminal inputs to follow
 
 #Displays the content of the file along with line number at the beginning of each line
 cat -n file_name_01.txt

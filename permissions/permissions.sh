@@ -5,3 +5,4 @@ chmod -R 750 /home/tutor/permissions/
 chown -R tutor:staff /home/tutor/permissions/
 chown -R tutor: /home/tutor/permissions/
 chown -R :staff /home/tutor/permissions/
+vastool
