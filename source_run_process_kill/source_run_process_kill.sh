@@ -1,7 +1,7 @@
 ********************************
 
 who
-users
+users -dedups
 uptime
 whoami
 
@@ -28,9 +28,13 @@ ps -eaf
 ps -eaf | grep tutor | cut -d" " -f2 | xargs kill -9
 ps -wx
 ps -n 10 -s 3 -o cpu
+
+top
 top -n 10
+top -n 10 -o cpu -s 3
 
 kil 34567
+kill -9
 
 sleep 100
 

@@ -2,4 +2,7 @@ expect
 
 usermod
 
-expr
+sudo -k expire password
+sudo whoami
+sudo -u guest whoami
+

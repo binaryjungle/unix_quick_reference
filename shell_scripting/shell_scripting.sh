@@ -45,7 +45,7 @@ fi
 
 #Calls Unix commands
 $(echo "hello world")
-`echo "hello worl"`
+`echo "hello world"`
 
 ((a=b+c))
 a=`expr b + c`
@@ -59,9 +59,10 @@ while [ a -le 100 ]; do
 
 done
 
-${HOME}
-$SHELL
-$0
+$HOME - home directory
+$SHELL - Login shell
+$0 - Current shell
+$PATH
 
 case ${location} in
  	"Chennai")
