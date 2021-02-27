@@ -1,6 +1,8 @@
 awk -v pi=3.14 -v r=2 '{print pi*r*r}'
 awk 'BEGIN{pi=3.14}{print pi*$1}'
 awk -v pi=3.14 '{BEGIN pii=pi}{print pii}'
+awk 'BEGIN{var1="c"} {$3=var1; print $0}' abcd.dat
+
 
 awk 'BEGIN{FS = ","} {if ($3 == "I") print $0}' file_name.txt
 awk 'BEGIN{FS = "\x01"} {if ($3 == "I") print $0}' file_name.txt
